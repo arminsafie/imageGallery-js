@@ -1,0 +1,51 @@
+body {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 0 .5rem #0006;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#gallery {
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 0 1rem #0006;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  transition: all .4s;
+}
+img:hover{
+  box-shadow: 0 0 2rem #0006;
+
+
+}
+button{
+  margin-bottom: 20px;
+}
+.d-btn{
+  background-color: rgb(207, 17, 17) ;
+  color: #fff ;
+
+}
+button,input{
+  border: 1px solid transparent;
+  border-radius: 2rem ;
+  padding: .5rem 1rem ;
+  background-color: lightcyan;
+  transition: all .4s;
+
+}
+
+button:hover{
+  box-shadow: 0 0 1rem #0006;
+}
